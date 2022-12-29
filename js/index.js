@@ -29,5 +29,4 @@ convButton.addEventListener("click",function (){
      convertDahabToAya()
 })
 localStorage.setItem("mm","dd")
-console.log(` the local ${localStorage.getItem('mm')}`) ;
-console.log(` the local ${localStorage.getItem('studentData')}`) ;
+alert(JSON.stringify(localStorage))
