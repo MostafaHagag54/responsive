@@ -28,3 +28,6 @@ convButton.addEventListener("click",function (){
      convertLitersToGalons()
      convertDahabToAya()
 })
+localStorage.setItem("mm","dd")
+console.log(` the local ${localStorage.getItem('mm')}`) ;
+console.log(` the local ${localStorage.getItem('studentData')}`) ;
